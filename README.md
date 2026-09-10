@@ -1,82 +1,45 @@
-# 🔮 AI Crystal Ball
+# 🎓 Stanford Code in Place
 
-> An interactive Python program from my **Stanford Code in Place** journey that uses AI to create a fun, personalized fortune.
-
----
-
-## 📚 Assignment
-
-**AI Crystal Ball** is an interactive fortune-telling program.
-
-The user provides:
-
-- 👤 Their name
-- ❓ A question
-
-The program then consults an AI-powered crystal ball and generates a short, funny, encouraging, and personalized fortune. The prediction is intentionally presented as entertainment rather than certainty. :contentReference[oaicite:1]{index=1}
+> My programming journey through **Stanford Code in Place** — learning Python, problem solving, and computational thinking through hands-on assignments.
 
 ---
 
-## 💻 Solution
+## 📚 Coursework
 
-```python
-def main():
-    name = input("What is your name? ")
-    question = input("What is your question? ")
+### 03 · AI Crystal Ball
 
-    print("\n🔮 Consulting the AI crystal ball...\n")
+An interactive Python assignment that creates a personalized fortune using an AI-powered crystal ball.
 
-    prompt = f"""
-    You are a fun and mysterious fortune teller.
+**Task**
 
-    The person's name is {name}.
-    Their question is: {question}.
+Ask the user for:
 
-    Give them a short, funny, and encouraging fortune.
-    Do not claim that the prediction is actually certain.
-    Make it feel magical and personalized.
-    Keep it to 3-5 sentences.
-    """
+- Their name
+- A question
 
-    fortune = call_gpt(prompt)
+Then use the AI crystal ball to generate a short, funny, encouraging, and personalized fortune.
 
-    print(f"✨ {name}'s Fortune ✨")
-    print(fortune)
+**Solution**
 
+Provided in files.
 
-if __name__ == "__main__":
-    main()
-````
-
----
-
-## 🖥️ Example
-
-```text
-What is your name? Rahul
-What is your question? Will I achieve my goals?
+**Output**
 
 🔮 Consulting the AI crystal ball...
 
 ✨ Rahul's Fortune ✨
-A bright opportunity is approaching...
-```
+A bright opportunity is waiting for you. Keep moving forward,
+trust your instincts, and enjoy the journey!
+Concepts: Python · User Input · Functions · f-Strings · AI · Prompting
 
----
+🗺️ Progress
+Assignment	Status
+Programming is Awesome	✅
+Sunrise Message	✅
+AI Crystal Ball	✅
+More assignments coming	🔜
 
-## 🧠 Concepts
+💻 Learning by Building
+Learn → Practice → Solve → Build → Repeat
 
-`Python` · `User Input` · `Functions` · `f-Strings` · `AI` · `Prompting`
-
----
-
-### 💻 Learning by Building
-
-**Learn → Practice → Create → Build → Repeat**
-
----
-
-<p align="center">
-  <sub>Stanford Code in Place · AI Crystal Ball</sub>
-</p>
-```
+<p align="center"> <sub>Personal coursework repository · Stanford Code in Place</sub> </p> ```
